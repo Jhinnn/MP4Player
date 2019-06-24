@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8443BB2822C0F51C00C9456D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443BB2722C0F51C00C9456D /* AppDelegate.m */; };
+		8443BB2B22C0F51C00C9456D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443BB2A22C0F51C00C9456D /* ViewController.m */; };
+		8443BB2E22C0F51C00C9456D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443BB2C22C0F51C00C9456D /* Main.storyboard */; };
+		8443BB3022C0F51D00C9456D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8443BB2F22C0F51D00C9456D /* Assets.xcassets */; };
+		8443BB3322C0F51D00C9456D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443BB3122C0F51D00C9456D /* LaunchScreen.storyboard */; };
+		8443BB3622C0F51D00C9456D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443BB3522C0F51D00C9456D /* main.m */; };
+		8443BB4022C0F51D00C9456D /* MP4PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443BB3F22C0F51D00C9456D /* MP4PlayerTests.m */; };
+		8443BB4B22C0F51D00C9456D /* MP4PlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443BB4A22C0F51D00C9456D /* MP4PlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8443BB3C22C0F51D00C9456D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8443BB1B22C0F51C00C9456D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8443BB2222C0F51C00C9456D;
+			remoteInfo = MP4Player;
+		};
+		8443BB4722C0F51D00C9456D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8443BB1B22C0F51C00C9456D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8443BB2222C0F51C00C9456D;
+			remoteInfo = MP4Player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8443BB2322C0F51C00C9456D /* MP4Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP4Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8443BB2622C0F51C00C9456D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8443BB2722C0F51C00C9456D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8443BB2922C0F51C00C9456D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8443BB2A22C0F51C00C9456D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8443BB2D22C0F51C00C9456D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8443BB2F22C0F51D00C9456D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8443BB3222C0F51D00C9456D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8443BB3422C0F51D00C9456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8443BB3522C0F51D00C9456D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8443BB3B22C0F51D00C9456D /* MP4PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MP4PlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8443BB3F22C0F51D00C9456D /* MP4PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MP4PlayerTests.m; sourceTree = "<group>"; };
+		8443BB4122C0F51D00C9456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8443BB4622C0F51D00C9456D /* MP4PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MP4PlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8443BB4A22C0F51D00C9456D /* MP4PlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MP4PlayerUITests.m; sourceTree = "<group>"; };
+		8443BB4C22C0F51D00C9456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8443BB2022C0F51C00C9456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443BB3822C0F51D00C9456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443BB4322C0F51D00C9456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8443BB1A22C0F51C00C9456D = {
+			isa = PBXGroup;
+			children = (
+				8443BB2522C0F51C00C9456D /* MP4Player */,
+				8443BB3E22C0F51D00C9456D /* MP4PlayerTests */,
+				8443BB4922C0F51D00C9456D /* MP4PlayerUITests */,
+				8443BB2422C0F51C00C9456D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8443BB2422C0F51C00C9456D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8443BB2322C0F51C00C9456D /* MP4Player.app */,
+				8443BB3B22C0F51D00C9456D /* MP4PlayerTests.xctest */,
+				8443BB4622C0F51D00C9456D /* MP4PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8443BB2522C0F51C00C9456D /* MP4Player */ = {
+			isa = PBXGroup;
+			children = (
+				8443BB2622C0F51C00C9456D /* AppDelegate.h */,
+				8443BB2722C0F51C00C9456D /* AppDelegate.m */,
+				8443BB2922C0F51C00C9456D /* ViewController.h */,
+				8443BB2A22C0F51C00C9456D /* ViewController.m */,
+				8443BB2C22C0F51C00C9456D /* Main.storyboard */,
+				8443BB2F22C0F51D00C9456D /* Assets.xcassets */,
+				8443BB3122C0F51D00C9456D /* LaunchScreen.storyboard */,
+				8443BB3422C0F51D00C9456D /* Info.plist */,
+				8443BB3522C0F51D00C9456D /* main.m */,
+			);
+			path = MP4Player;
+			sourceTree = "<group>";
+		};
+		8443BB3E22C0F51D00C9456D /* MP4PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8443BB3F22C0F51D00C9456D /* MP4PlayerTests.m */,
+				8443BB4122C0F51D00C9456D /* Info.plist */,
+			);
+			path = MP4PlayerTests;
+			sourceTree = "<group>";
+		};
+		8443BB4922C0F51D00C9456D /* MP4PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8443BB4A22C0F51D00C9456D /* MP4PlayerUITests.m */,
+				8443BB4C22C0F51D00C9456D /* Info.plist */,
+			);
+			path = MP4PlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8443BB2222C0F51C00C9456D /* MP4Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8443BB4F22C0F51D00C9456D /* Build configuration list for PBXNativeTarget "MP4Player" */;
+			buildPhases = (
+				8443BB1F22C0F51C00C9456D /* Sources */,
+				8443BB2022C0F51C00C9456D /* Frameworks */,
+				8443BB2122C0F51C00C9456D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MP4Player;
+			productName = MP4Player;
+			productReference = 8443BB2322C0F51C00C9456D /* MP4Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8443BB3A22C0F51D00C9456D /* MP4PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8443BB5222C0F51D00C9456D /* Build configuration list for PBXNativeTarget "MP4PlayerTests" */;
+			buildPhases = (
+				8443BB3722C0F51D00C9456D /* Sources */,
+				8443BB3822C0F51D00C9456D /* Frameworks */,
+				8443BB3922C0F51D00C9456D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8443BB3D22C0F51D00C9456D /* PBXTargetDependency */,
+			);
+			name = MP4PlayerTests;
+			productName = MP4PlayerTests;
+			productReference = 8443BB3B22C0F51D00C9456D /* MP4PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8443BB4522C0F51D00C9456D /* MP4PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8443BB5522C0F51D00C9456D /* Build configuration list for PBXNativeTarget "MP4PlayerUITests" */;
+			buildPhases = (
+				8443BB4222C0F51D00C9456D /* Sources */,
+				8443BB4322C0F51D00C9456D /* Frameworks */,
+				8443BB4422C0F51D00C9456D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8443BB4822C0F51D00C9456D /* PBXTargetDependency */,
+			);
+			name = MP4PlayerUITests;
+			productName = MP4PlayerUITests;
+			productReference = 8443BB4622C0F51D00C9456D /* MP4PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8443BB1B22C0F51C00C9456D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Jhinn1n;
+				TargetAttributes = {
+					8443BB2222C0F51C00C9456D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8443BB3A22C0F51D00C9456D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8443BB2222C0F51C00C9456D;
+					};
+					8443BB4522C0F51D00C9456D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8443BB2222C0F51C00C9456D;
+					};
+				};
+			};
+			buildConfigurationList = 8443BB1E22C0F51C00C9456D /* Build configuration list for PBXProject "MP4Player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8443BB1A22C0F51C00C9456D;
+			productRefGroup = 8443BB2422C0F51C00C9456D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8443BB2222C0F51C00C9456D /* MP4Player */,
+				8443BB3A22C0F51D00C9456D /* MP4PlayerTests */,
+				8443BB4522C0F51D00C9456D /* MP4PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8443BB2122C0F51C00C9456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443BB3322C0F51D00C9456D /* LaunchScreen.storyboard in Resources */,
+				8443BB3022C0F51D00C9456D /* Assets.xcassets in Resources */,
+				8443BB2E22C0F51C00C9456D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443BB3922C0F51D00C9456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443BB4422C0F51D00C9456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8443BB1F22C0F51C00C9456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443BB2B22C0F51C00C9456D /* ViewController.m in Sources */,
+				8443BB3622C0F51D00C9456D /* main.m in Sources */,
+				8443BB2822C0F51C00C9456D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443BB3722C0F51D00C9456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443BB4022C0F51D00C9456D /* MP4PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8443BB4222C0F51D00C9456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8443BB4B22C0F51D00C9456D /* MP4PlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8443BB3D22C0F51D00C9456D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8443BB2222C0F51C00C9456D /* MP4Player */;
+			targetProxy = 8443BB3C22C0F51D00C9456D /* PBXContainerItemProxy */;
+		};
+		8443BB4822C0F51D00C9456D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8443BB2222C0F51C00C9456D /* MP4Player */;
+			targetProxy = 8443BB4722C0F51D00C9456D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8443BB2C22C0F51C00C9456D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8443BB2D22C0F51C00C9456D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8443BB3122C0F51D00C9456D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8443BB3222C0F51D00C9456D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8443BB4D22C0F51D00C9456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8443BB4E22C0F51D00C9456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8443BB5022C0F51D00C9456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVY8YS66C;
+				INFOPLIST_FILE = MP4Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jhinn1n.MP4Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8443BB5122C0F51D00C9456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVY8YS66C;
+				INFOPLIST_FILE = MP4Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jhinn1n.MP4Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8443BB5322C0F51D00C9456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVY8YS66C;
+				INFOPLIST_FILE = MP4PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jhinn1n.MP4PlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MP4Player.app/MP4Player";
+			};
+			name = Debug;
+		};
+		8443BB5422C0F51D00C9456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVY8YS66C;
+				INFOPLIST_FILE = MP4PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jhinn1n.MP4PlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MP4Player.app/MP4Player";
+			};
+			name = Release;
+		};
+		8443BB5622C0F51D00C9456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVY8YS66C;
+				INFOPLIST_FILE = MP4PlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jhinn1n.MP4PlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MP4Player;
+			};
+			name = Debug;
+		};
+		8443BB5722C0F51D00C9456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CVY8YS66C;
+				INFOPLIST_FILE = MP4PlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jhinn1n.MP4PlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MP4Player;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8443BB1E22C0F51C00C9456D /* Build configuration list for PBXProject "MP4Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8443BB4D22C0F51D00C9456D /* Debug */,
+				8443BB4E22C0F51D00C9456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8443BB4F22C0F51D00C9456D /* Build configuration list for PBXNativeTarget "MP4Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8443BB5022C0F51D00C9456D /* Debug */,
+				8443BB5122C0F51D00C9456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8443BB5222C0F51D00C9456D /* Build configuration list for PBXNativeTarget "MP4PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8443BB5322C0F51D00C9456D /* Debug */,
+				8443BB5422C0F51D00C9456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8443BB5522C0F51D00C9456D /* Build configuration list for PBXNativeTarget "MP4PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8443BB5622C0F51D00C9456D /* Debug */,
+				8443BB5722C0F51D00C9456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8443BB1B22C0F51C00C9456D /* Project object */;
+}
